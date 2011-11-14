@@ -19,13 +19,13 @@
 define('DB_NAME', 'vvisionclinic');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'vvisionclinic');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'vv!s!@ncl!n!c');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql.vvisionclinic.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
