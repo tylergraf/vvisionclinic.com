@@ -16,7 +16,7 @@
 
 get_header(); ?>
 <div id="bd" class="wrapper">
-
+  <h2>Contact Us</h2>
     <?php the_post(); echo get_the_content(); ?>
         <div class="grid-8 alpha" id="contact-form">
 
@@ -31,7 +31,7 @@ get_header(); ?>
                     <span class="grid-8"><input title="Subject" id="subject" name="subject" class="required"></span>
                     <label for="message">Your Message</label>
                     <span class="grid-8"><textarea title="Your Message" id="message" cols="10" class="required" name="message" rows="5"></textarea></span>
-                    <div class="button-wrapper"><input class="submit" type="submit" value="Submit"></div>
+                    <input class="button button-skin-primary" type="submit" value="Submit">
                 </fieldset>
 
             </form>
