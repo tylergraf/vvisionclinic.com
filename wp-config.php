@@ -20,12 +20,15 @@ define('DB_NAME', 'vvisionclinic');
 
 /** MySQL database username */
 define('DB_USER', 'vvisionclinic');
+//define('DB_USER', 'root');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'vv!s!@ncl!n!c');
+//define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'mysql.vvisionclinic.com');
+//define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -42,14 +45,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '99F8-];iV!/!p~+lt;miw1QBk A-Zxnq+Nc=ixhW9E^eHtd5YF_1Q:wICIl{|B&y');
-define('SECURE_AUTH_KEY',  'Edrs~D/&h#I6JM}jaqdb7AyA^2}/XU?Rr4676o>K ]~:EE_<cTW$&K5:Vs9{~u/^');
-define('LOGGED_IN_KEY',    'JTQ(d@p6()EgLQA?7~-7tV-qX#?tATJ>] V7++tMuo%l*(e5D2<_@,.Ux2< CCvH');
-define('NONCE_KEY',        'dx@ql``f#n%_^++T2[$/>@AcZ)%!HT0l{H|97fTk*zg7,w:0-C&=3UZkJQluoUsX');
-define('AUTH_SALT',        '3?b15/DOIbY0NP=.#saci0QdG4C$h%hG mQMx>>+liXjZ:dXlG#Ey!{kMB*Gb5Xb');
-define('SECURE_AUTH_SALT', 'dl!7v-sqf;Avud.8&d7}WkA2d(fF}2f~t<_/Q2esIAK`nxr|G4~;| NW{r!hZ#^U');
-define('LOGGED_IN_SALT',   'Bf?d|.@+,CJ_ZRC*;Sar5.]wQaCA>gCl}@heg#ohy{y I51L!4Q;XnwE` 5>@49>');
-define('NONCE_SALT',       ']58ua. }]hX)uDN ?}@6+-H]}69GL#SfKu)s5Kictp Oc>x#u<zf6!tK3X T{ U^');
+define('AUTH_KEY',         'asdg9asdf.ei3..3+j35;}[23[]2o32o2n3toiOaoasidgnelskam03o3[1@@$$2842i#M4jf');
+define('SECURE_AUTH_KEY',  '39gn3922@(@(#H2$N2n42$M24LK%:KmslfasdFnklnfei**#O#O@{{}$)$(#IN@$#I$NK$n,m4');
+define('LOGGED_IN_KEY',    '89998&(88h9*DhKDlnLkdnl54#$D%F&fg*hno)j)(HG(8g8h0j--km[mpbovyCTcfvnbjnkbhgc');
+define('NONCE_KEY',        '98go787v8vk7kv7kc7c786&V**V(d90h3nwlkckusivb0nVl8v89veoibowipba9b');
+define('AUTH_SALT',        '2930b(bbI]b]PG]pg\SgpSDl/IWH:O#IbOGBEOI#BoiBG3O8E*#O#09$R($)#()##BG#?DLKJBG');
+define('SECURE_AUTH_SALT', '>ibGoIQ#b.<ENGSnFOiwnlkG)#(##opR}p[pEp@I5u5y@O@P:LFD:gonDIFNEK3GIDNGMD{}#}${#');
+define('LOGGED_IN_SALT',   'HAnaie39)#039)#9NGgopENlEKN.lN@!!O@0@(-2-_)48*)w09HDKLDnpDoidNoiElnLNeWN');
+define('NONCE_SALT',       '8**88j8JnlllUYCkYH%4456xckytClv(;8gli:vKCtescuG[iVb[IvbJlgckyfxlutCV;IYG{OUh{(v');
 
 /**#@-*/
 
