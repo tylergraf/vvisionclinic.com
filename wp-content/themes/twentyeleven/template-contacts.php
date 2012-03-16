@@ -16,6 +16,7 @@
 
 get_header(); ?>
 <div id="bd" class="wrapper">
+  <div style="margin-top:30px;"><img src="/wp-content/themes/twentyeleven/images/contacts-hd.jpg"></div>
   <h2>Contact Lenses</h2>
     <?php the_post(); echo get_the_content(); ?>
 </div>
