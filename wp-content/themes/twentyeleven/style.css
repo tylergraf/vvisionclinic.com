@@ -686,7 +686,7 @@ list-style: none;}
 #slides .next,#slides .prev {
 	position:absolute;
 	top:146px;
-	left:-25px;
+	left:-24px;
 	width:24px;
 	height:43px;
 	display:block;
