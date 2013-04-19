@@ -13,24 +13,25 @@
  *
  * @package WordPress
  */
+// $_SERVER["CLEARDB_DATABASE_URL"] = 'SDFA';
 
 
-if (isset($_SERVER["CLEARDB_DATABASE_URL"])) {
- $db = parse_url($_SERVER["DATABASE_URL"]);
- define("DB_NAME", trim($db["path"],"/"));
- define("DB_USER", $db["user"]);
- define("DB_PASSWORD", $db["pass"]);
- define("DB_HOST", $db["host"]);
+// if (isset($_SERVER["CLEARDB_DATABASE_URL"])) {
+ // $db = parse_url($_SERVER["DATABASE_URL"]);
+ define("DB_NAME", $_SERVER["DB_NAME"]);
+ define("DB_USER", $_SERVER["DB_USER"]);
+ define("DB_PASSWORD", $_SERVER["DB_PASS"]);
+ define("DB_HOST", $_SERVER["DB_HOST"]);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-}
-else {
- die("Your heroku DATABASE_URL does not appear to be correctly specified.");
-}
+// }
+// else {
+//  die("Your heroku DATABASE_URL does not appear to be correctly specified.");
+// }
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
