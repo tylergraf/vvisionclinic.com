@@ -34,8 +34,9 @@
                 <h3>Contact</h3>
                 <ul>
                     <li id="ft-phone"><i></i><p>1-800-789-2020</p></li>
-                    <li id="ft-email"><i></i><a href="mailto:info@vvisionclinic.com">info@vvisionclinic.com</a></li>
+                    <li id="ft-email"><i></i><a href="mailto:valleyvision2@gmail.com">valleyvision2@gmail.com</a></li>
                     <li id="ft-form"><i></i><a href="/contact">Contact Form</a></li>
+                    <li id="ft-form"><i></i><a href="/hippa">HIPPA Info</a></li>
                 </ul>
             </div>
         </div>

@@ -80,7 +80,10 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
     width: 300px;
     float: left;
 }
-
+.entry-title {
+  font-size: 36px;
+  margin: 40px 0;
+}
 /*text*/
 body {
   font-family: adobe-garamond-pro-1,adobe-garamond-pro-2,"Georgia",serif;
@@ -89,6 +92,9 @@ body {
 }
 .clear {
     clear: both;
+}
+strong {
+  font-weight: bold;
 }
 a,
 a:link,
