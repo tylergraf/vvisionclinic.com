@@ -17,6 +17,8 @@ get_header(); ?>
 		<div id="primary">
       <div id="bd" class="wrapper">
 
+				<?php the_post(); ?>
+
 				<?php get_template_part( 'content', 'page' ); ?>
 
 			</div><!-- #content -->
