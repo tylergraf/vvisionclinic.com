@@ -35,7 +35,7 @@ get_header(); ?>
 
 <?php get_footer(); ?>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script type="text/javascript" src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	<script type="text/javascript" src="/wp-content/themes/twentyeleven/js/slides.min.jquery.js"></script>
 	<script type="text/javascript">
       $('#slides').slides({
