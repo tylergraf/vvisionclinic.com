@@ -36,7 +36,7 @@
                     <li id="ft-phone"><i></i><p>1-800-789-2020</p></li>
                     <li id="ft-email"><i></i><a href="mailto:valleyvision2@gmail.com">valleyvision2@gmail.com</a></li>
                     <li id="ft-form"><i></i><a href="/contact">Contact Form</a></li>
-                    <li id="ft-form"><i></i><a href="/hippa">HIPPA Info</a></li>
+                    <li id="ft-form"><i></i><a href="/hipaa">HIPAA Info</a></li>
                 </ul>
             </div>
         </div>
